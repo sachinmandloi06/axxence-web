@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 0;
+    /* border: 1px solid red; */
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.nav-section{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0%;
+}
+.mini-nav{
+    width: 100%;
+    height: 30px;
+    background-color: #65B32E;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    
+}
+.mini-nav img{
+    width: 25px;
+    margin-right: 10px;
+}
+.mini-nav h1{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+.mini-nav i{
+    color: white;
+    font-size: 20px;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+
+}
+.nav img{
+    width: 180px;
+}
+.nav-item{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item ul{
+    list-style: none;
+}
+.nav-item ul li{
+    color: black;
+}
+.nav-item ul li:hover{
+    transition: all;
+    color: #65B32E;
+}
+.img-section{
+    width: 100%;
+    height: 450px;
+    background-image: url(./bg_test.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.section-bar{
+    width: 100%;
+    height: 600px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.right-section{
+    width: 530px;
+    height: 430px;
+    /* border: 1px solid red;    */
+    margin-right: 10px;
+    
+
+}
+.img{
+    width: 530px;
+    height: 250px;
+    /* border: 1px solid red;    */
+    background-image: url(./csm_axxence_fragrence_topc_bg_5ea8367a88.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-section h1{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.right-section p{
+    font-size: 14px;
+    
+
+}
+.right-section button{
+    width: 200px;
+    height: 40px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    color: white;
+    background-color: #009FE3;
+    border: unset;
+    border-radius: 5px;
+}
+.left-section{
+    width: 530px;
+    height: 430px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+
+}
+.left-section .img{
+    background-image: url(./csm_axxence_flavour_topb_bg_d63ae99664.webp);
+}
+.left-section h1{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.left-section p{
+    font-size: 14px;
+    
+
+}
+.left-section button{
+    width: 200px;
+    height: 40px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    color: white;
+    background-color: #009FE3;
+    border: unset;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.right-part{
+    width: 400px;
+    height: 300px;
+}
+.right-part img{
+    width: 200px;
+}
+.right-part h1{
+    font-size: 15px;
+    color:#CECEC7;
+    padding-top: 10px;
+}
+.right-part p{
+    font-size: 15px;
+    color: #CECEC7;
+}
+.left-part{
+    width: 500px;
+    height: 300px;
+}
+.circle{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.circle img{
+    width: 120px;
+}
+
+@media (max-width:784px) {
+    .nav {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-item ul{
+        display: none;
+    }
+    .img-section{
+        width: 100%;
+        height: 550px;
+    }
+    .section-bar{
+        width: 100%;
+        height: 1100px;
+        flex-direction: column;
+    
+    }
+    .right-section{
+        width: 530px;
+        height: 500px;
+        /* border: 1px solid red;    */
+        margin-right: 0;
+        
+    
+    }
+    .left-section{
+        width: 530px;
+        height: 450px;
+        /* border: 1px solid red; */
+        margin-left: 0;
+    
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+    }
+    .right-part{
+        width: 200px;
+        padding-top: 20px;
+    }
+    .left-part{
+        width: 500px;
+    }
+    .circle img{
+        width:100px ;
+    }
+}
